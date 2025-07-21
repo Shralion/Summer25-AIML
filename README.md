@@ -1,2 +1,1 @@
-# Movie-Recommender
-Hybrid Recommender + Genre Classifier + Revenue Predictor
+# Hybrid Recommender + Genre Classifier + Revenue Predictor for Movies/TV-Shows
