@@ -1,5 +1,5 @@
 # Recommender + Genre Classifier + Revenue Predictor for Movies/TV-Shows
-## Structure 
+## Structure:
 ``` 
 ├── GenreClassification/
 ├── MovieRecommender/
@@ -7,6 +7,7 @@
 ├── requirements.txt
 └── README.md      <-- You are here
 ```
+## Overview:
 1. Movie Recommender:
    - A hybrid recommender that uses a combination Collaborative filtering and Content-based filtering to recommend movies to users.
    - Models Used: TF-IDF + SVD
