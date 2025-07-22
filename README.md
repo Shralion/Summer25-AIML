@@ -47,4 +47,15 @@
      ```
 
 3. Genre Classifier:
-   - Mu
+   - Multi-label genre classification using textual metadata such as cast, country, description, director, etc.
+   - Pipeline: TF-IDF vectorization → MultiLabelBinarizer → One-vs-Rest Logistic Regression
+   - Dataset Used: https://www.kaggle.com/datasets/shivamb/netflix-shows
+   - Sample Output:
+     ```
+     Sample predictions with titles:
+      Movie 1: Game Over, Man! → Predicted Genres: ['Comedies', 'Action & Adventure', 'Dramas']
+      Movie 2: Arsenio Hall: Smart & Classy → Predicted Genres: ['Stand-Up Comedy', 'Documentaries', 'Dramas']
+      Movie 3: Kazoops! → Predicted Genres: ["Kids' TV", 'International TV Shows', 'British TV Shows']
+      Movie 4: We Are the Champions → Predicted Genres: ['Docuseries', 'International TV Shows', 'TV Dramas']
+      Movie 5: Pablo Escobar, el patrón del mal → Predicted Genres: ['International TV Shows', 'Crime TV Shows', 'Spanish-Language TV Shows']
+     ```
