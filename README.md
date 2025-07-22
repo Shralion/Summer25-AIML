@@ -59,7 +59,8 @@
       Movie 4: We Are the Champions → Predicted Genres: ['Docuseries', 'International TV Shows', 'TV Dramas']
       Movie 5: Pablo Escobar, el patrón del mal → Predicted Genres: ['International TV Shows', 'Crime TV Shows', 'Spanish-Language TV Shows']
      ```
-### To Download the required libraries for all 3 projects:
+
+#### To Download the required libraries for all 3 projects:
    ```
    pip install -r requirements.txt
    ```
