@@ -1,9 +1,9 @@
 # Recommender + Genre Classifier + Revenue Predictor for Movies/TV-Shows
 ## Structure:
 ``` 
-├── GenreClassification/
+├── Genre Classification/
 ├── MovieRecommender/
-├── RevenuePrediction/
+├── Popularity Predictor/
 ├── requirements.txt
 └── README.md      <-- You are here
 ```
